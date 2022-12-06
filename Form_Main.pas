@@ -49,6 +49,7 @@ end;
 procedure TForm3.FormCreate(Sender: TObject);
 begin
   QRCodeBitmap := TBitmap.Create;
+  edtCode.Text := '88021492';
 end;
 
 procedure TForm3.FormShow(Sender: TObject);
